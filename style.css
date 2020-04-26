@@ -28,14 +28,19 @@ p{
     margin: 0;
 }
 
-button{
-    display: block;
-    margin: 20px auto ;
+.input{
+    cursor: pointer;
+}
+
+.button{
+    font-size: 15px;
+    margin: 20px auto;
+    border: 1px solid;
+    width: 110px;
     border-radius: 20px;
-    padding: 5px 15px ;
-    font-size: 25px;
     background-color: blanchedalmond;
     color: black;
+    cursor: pointer;
 }
 
 .p1 , .p2{
