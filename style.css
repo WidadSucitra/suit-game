@@ -5,3 +5,40 @@ body{
     text-align: center;
     color: blanchedalmond;
 }
+
+h1{
+    font-family: 'Acme', sans-serif;
+    font-size: 100px;
+}
+
+h2{
+    font-size: 50px;
+}
+
+h2, h3, p{
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
+}
+
+h3, p{
+    font-size: 25px;
+}
+
+p{
+    margin: 0;
+}
+
+button{
+    display: block;
+    margin: 20px auto ;
+    border-radius: 20px;
+    padding: 5px 15px ;
+    font-size: 25px;
+    background-color: blanchedalmond;
+    color: black;
+}
+
+.p1 , .p2{
+    display: inline-block;
+    margin: 0 10%;
+}
