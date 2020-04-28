@@ -2,17 +2,21 @@ body{
     background-color: black;
 }
 .container{
+    margin-top: 60px;
     text-align: center;
     color: blanchedalmond;
 }
 
 h1{
     font-family: 'Acme', sans-serif;
-    font-size: 100px;
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin: 0;
 }
 
 h2{
-    font-size: 50px;
+    font-size: 20px;
+    margin: 0;
 }
 
 h2, h3, p{
@@ -21,7 +25,7 @@ h2, h3, p{
 }
 
 h3, p{
-    font-size: 25px;
+    font-size: 16px;
 }
 
 p{
@@ -33,10 +37,10 @@ p{
 }
 
 .button{
-    font-size: 15px;
+    font-size: 13px;
     margin: 20px auto;
     border: 1px solid;
-    width: 110px;
+    width: 100px;
     border-radius: 20px;
     background-color: blanchedalmond;
     color: black;
@@ -46,4 +50,67 @@ p{
 .p1 , .p2{
     display: inline-block;
     margin: 0 10%;
+}
+
+img{
+    margin-top: 25px;
+    width: 90px;
+}
+
+/* Untuk tablet kecil atau sedang */
+@media screen and (min-width: 760px) and (max-width: 1023px){
+    h1{
+        font-size: 60px;
+    }
+    
+    h2{ font-size: 20px;}
+
+    h3, p{ font-size: 17px; }
+
+    .button{
+        font-size: 15px;
+        width: 120px;
+    }
+    img{
+        width: 140px;
+    }
+}
+
+
+/* Notebook atau Tablet */
+@media screen and (min-width: 1024px) and (max-width: 1439px){
+    h1{
+        font-size: 60px;
+    }
+    
+    h2{ font-size: 20px;}
+
+    h3, p{ font-size: 17px; }
+
+    .button{
+        font-size: 15px;
+        width: 120px;
+    }
+    img{
+        width: 150px;
+    }
+}
+
+/* Screen sedang */
+@media screen and (min-width: 1440px){
+    h1{
+        font-size: 110px;
+    }
+
+    h2{ font-size: 30px;}
+
+    h3, p{ font-size: 22px; }
+
+    .button{
+        font-size: 20px;
+        width: 150px;
+    }
+    img{
+        width: 190px;
+    }
 }
